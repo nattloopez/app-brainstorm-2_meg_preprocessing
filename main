@@ -16,7 +16,8 @@ mkdir -p home
 #/Users/guiomar/Documents/SOFTWARE/brainstorm3/bin/R2020a/brainstorm3.command /Applications/MATLAB/MATLAB_Runtime/v98 main2.m local
 
 # 2) Run code singularity
-singularity run -e --bind `pwd`/home:/home/$USER docker://nicomm77/neurodockernmm:v1 main2.m local
+singularity run -e --bind `pwd`/home:/home/$USER docker://brainlife/brainstorm:3_210303 main2.m local
+
 
 
 
