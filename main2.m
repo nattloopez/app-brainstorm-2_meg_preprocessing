@@ -1,6 +1,6 @@
 % brainlife.io App for Brainstorm MEEG data analysis
 
-disp('0) My script has started');
+disp('0. My script has started');
 
 %% Key paths
 % Directory to store brainstorm database
